@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+
+
+.scroll-container {
+    width: 400px;
+    height: 300px;
+    overflow: auto;
+    border: 1px solid #000;
+    background-color: white;
+}
+
+.scroll-content {
+    margin-top: 22%;
+    padding: 50px; /* Adjust padding as needed */
+    text-align: center;
+    font-family: monospace;
+}
+
+.initiate {
+    font-family: monospace;
+    font-size: 13px;
+    animation: fadeIn 7s ease-in-out forwards;
+    text-decoration: none;
+    color: rgb(230, 0, 0);
+}
+
+.initiate:hover{
+    color: rgb(100, 0, 0);
+}

@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+
+.scroll-content-intro {
+    opacity: 0;
+    text-align: center;
+    font-size: 12px;
+    font-family: monospace;
+    animation: fadeIn 0s ease-in-out forwards;
+}
+
+.scroll-container {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: white;
+}
+
+.scroll-content {
+    margin-top: 5%;
+    padding: 80px; /* Adjust padding as needed */
+    text-align: center;
+    font-family: monospace;
+}
+
+
+.begin {
+    font-family: monospace;
+    animation: fadeIn 7s ease-in-out forwards;
+    text-decoration: none;
+    color: rgb(230, 0, 0);
+}
+
+.begin:hover{
+    color: rgb(100, 0, 0);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
